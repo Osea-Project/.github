@@ -76,4 +76,5 @@ Code says what, comments say why.
 - Never use `--no-verify`. The `commit-msg` hook rejects messages carrying AI attribution; if it rejects one, rewrite the message.
 - Do not rewrite or amend history unless asked.
 - Do not add emojis, decorative banners or assistant-style prose to code, comments, commits or docs.
-- Do not commit `.claude/` or other local tool settings.
+- Never mention that an AI tool took part in the work, in commits, pull requests, issues, code, comments, docs, changelogs or file headers. Do not leave tool or session traces (model names, session links, prompt files) anywhere in the repository.
+- Keep tool-specific files out of the repository: `CLAUDE.md`, `GEMINI.md` and `.claude/` are gitignored. Never stage or commit them.
