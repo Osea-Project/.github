@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/Osea-Project/.github/main/profile/osea-logo.svg" width="160" alt="Project Osea logo">
 </p>
 
-<h1 align="center">Project Osea</h1>
+<h1 align="center">Osea Project</h1>
 
 <p align="center">
   A virtualization manager for shared infrastructure.<br>
